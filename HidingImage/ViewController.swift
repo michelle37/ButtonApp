@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var Blue: UIImageView!
+   
+  
     @IBOutlet weak var red: UIImageView!
     
     override func viewDidLoad() {
@@ -33,6 +35,7 @@ class ViewController: UIViewController {
         Blue.hidden = false
         red.hidden = true
     }
+
     
     @IBAction func RedBtn(sender: UIButton) {
         Blue.hidden = true
